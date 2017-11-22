@@ -13,7 +13,7 @@
         <h3>Posted in:</h3>
         <ul>
           {% for category in categories %}
-            <li style="display: inline">
+            <li style="display: inline;">
               {% image category.icon fill-32x32 style="vertical-align:middle" %}
               {{ category.name }}
             </li>
@@ -32,6 +32,7 @@
         <p>{{ item.caption }}</p>
       </div>
     {% endfor %}
+    
     {% if page.tags.all.count %}
         <div class="tags">
           <h3>Tags:</h3>

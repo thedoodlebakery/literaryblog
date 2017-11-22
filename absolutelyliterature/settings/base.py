@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'modelcluster',
     'taggit',
     'wagtailerrorpages',
+    'el_pagination',
 
     'django.contrib.admin',
     'django.contrib.auth',
